@@ -4,7 +4,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{95B0AD39-3B7E-49B4-B5FF-E290B80A8260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureAzFuncLogging", "src\ConfigureAzFuncLogging\ConfigureAzFuncLogging.csproj", "{72695867-0CAC-42B8-BC20-AB2C528ADB6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureAzFuncLogging", "src\ConfigureAzFuncLogging\ConfigureAzFuncLogging.csproj", "{C8DB7B28-0310-4020-9380-2C379178D916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,16 +12,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{72695867-0CAC-42B8-BC20-AB2C528ADB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72695867-0CAC-42B8-BC20-AB2C528ADB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72695867-0CAC-42B8-BC20-AB2C528ADB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72695867-0CAC-42B8-BC20-AB2C528ADB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8DB7B28-0310-4020-9380-2C379178D916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DB7B28-0310-4020-9380-2C379178D916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DB7B28-0310-4020-9380-2C379178D916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DB7B28-0310-4020-9380-2C379178D916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{72695867-0CAC-42B8-BC20-AB2C528ADB6F} = {95B0AD39-3B7E-49B4-B5FF-E290B80A8260}
+		{C8DB7B28-0310-4020-9380-2C379178D916} = {95B0AD39-3B7E-49B4-B5FF-E290B80A8260}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D913E2E0-CA8D-426A-A372-CC9A395E64FB}
