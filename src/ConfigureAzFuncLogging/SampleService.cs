@@ -7,9 +7,9 @@ namespace ConfigureAzFuncLogging
         public async Task RunAsync()
         {
             logger.LogInformation("Running sample service");
-            await Task.Delay(1000);
+            await Task.Delay(500);
             logger.LogDebug("This is a debug message");
-            await Task.Delay(1000);
+            await Task.Delay(500);
             logger.LogTrace("This is a trace message");
         }
     }
