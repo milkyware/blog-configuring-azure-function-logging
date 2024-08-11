@@ -2,15 +2,22 @@
 
 namespace ConfigureAzFuncLogging
 {
-    public class SampleService(ILogger<SampleService> logger)
+    public class SampleService
     {
+        private readonly ILogger<SampleService> _logger;
+
+        public SampleService(ILogger<SampleService> logger)
+        {
+            _logger = logger;
+        }
+
         public async Task RunAsync()
         {
-            logger.LogInformation("Running sample service");
+            _logger.LogInformation("Running sample service");
             await Task.Delay(500);
-            logger.LogDebug("This is a debug message");
+            _logger.LogDebug("This is a debug message");
             await Task.Delay(500);
-            logger.LogTrace("This is a trace message");
+            _logger.LogTrace("This is a trace message");
         }
     }
 }
