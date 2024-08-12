@@ -1,0 +1,1 @@
+# Configure Isolate Azure Function Logging
