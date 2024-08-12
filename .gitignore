@@ -365,9 +365,6 @@ FodyWeavers.xsd
 # Development AppSetting
 appsettings.*.json
 
-# Azure Function
-local.settings.json
-
 # Azurite
 __azurite_db_*.json
 __blobstorage__/

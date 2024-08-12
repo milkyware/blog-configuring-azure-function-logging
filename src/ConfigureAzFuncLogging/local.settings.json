@@ -1,0 +1,10 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+
+    "AZUREFUNCTIONSJOBHOST__LOGGING__LOGLEVEL__FUNCTION": "Trace",
+    "LOGGING__LOGLEVEL__CONFIGUREAZFUNCLOGGING": "Trace"
+  }
+}
