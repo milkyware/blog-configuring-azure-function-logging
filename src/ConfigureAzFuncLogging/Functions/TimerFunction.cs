@@ -17,6 +17,9 @@ namespace ConfigureAzFuncLogging.Functions
         [Function(nameof(TimerFunction))]
         public async Task Run([TimerTrigger("0 0 * * *", RunOnStartup = true)] TimerInfo timerInfo)
         {
+            _logger.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
+            _logger.LogDebug("Func debug message");
+            _logger.LogTrace("Func trace message");
             await _sampleService.RunAsync();
         }
     }
